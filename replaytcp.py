@@ -127,7 +127,7 @@ def getIPaddr():
 
 # basic timestamp function
 def timestamp():
-	return "[ " + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S') + " ]"
+	return "[ " + datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S') + " ]"
 
 ### Arg Functions
 # Test if it is an IP address (only IPv4 support!)
